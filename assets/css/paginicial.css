@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+}
+body{
+  background: url("../image/ambev1.jpg") no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative; 
+}
+#card{
+  background-color: transparent !important;
+  box-shadow: 1px 1px 5px 5px greenyellow;
+  margin-top: 3cm;
+}
+#card h1{
+  color:white !important;
+  font-weight: 50px !important;
+
+}
