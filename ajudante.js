@@ -17,7 +17,7 @@ import BotaoDeleta from './componentes/deletaTarefa.js'
   
     const tarefa = document.createElement('li')
     tarefa.classList.add('task')
-    const conteudo = `<p class="content">R$ ${valor}</p>`
+    const conteudo = `<p class="content">R$  ${valor}</p>`
     
 
     tarefa.innerHTML = conteudo
