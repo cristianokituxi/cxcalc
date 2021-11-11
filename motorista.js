@@ -8,7 +8,7 @@ import BotaoDeleta from './componentes/deletaTarefa.js'
 
     const lista = document.querySelector('[data-list]')
     const input = document.querySelector('[data-form-input]')
-    const valor =( input.value / 10.91) * 0.28
+    const valor = ( input.value / 10.91) * 0.28
     
     
 
@@ -17,7 +17,8 @@ import BotaoDeleta from './componentes/deletaTarefa.js'
   
     const tarefa = document.createElement('li')
     tarefa.classList.add('task')
-    const conteudo = `<p class="content">${valor}</p>`
+    const conteudo = `<p class="content"> R$ ${valor}</p>`
+
     
 
     tarefa.innerHTML = conteudo
