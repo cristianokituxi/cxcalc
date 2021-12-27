@@ -8,7 +8,7 @@ import BotaoDeleta from './componentes/deletaTarefa.js'
 
     const lista = document.querySelector('[data-list]')
     const input = document.querySelector('[data-form-input]')
-    const valor =( input.value - 2400)/( 10.91) * 0.24
+    const valor =( input.value / 20.91) * 0.24
     
     
 
